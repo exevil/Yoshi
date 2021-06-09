@@ -6,6 +6,8 @@
 //  Copyright © 2016 Prolific Interactive. All rights reserved.
 //
 
+import UIKit
+
 /// Utility for retrieving items from the App Bundle
 class AppBundleUtility: NSObject {
 

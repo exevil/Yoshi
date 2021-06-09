@@ -15,6 +15,9 @@
 ///        Yoshi won't do anything if it's in the root of the stack.
 /// - asyncAfterDismissing->Void: Indicates that the action should be handled asynchronously after the view is.
 //  dismissed.
+
+import UIKit
+
 public enum YoshiActionResult {
     case handled
     case present(UIViewController)
